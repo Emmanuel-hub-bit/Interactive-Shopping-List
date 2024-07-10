@@ -1,0 +1,23 @@
+
+input, button {
+    margin: 5px 0;
+}
+
+#shoppingList {
+    list-style: none;
+    padding: 0;
+}
+
+#shoppingList li {
+    padding: 1px;
+    cursor: pointer;
+}
+
+#shoppingList li.purchased {
+    text-decoration: line-through;
+    background-color: beige;
+}
+
+.purchase-button {
+    margin-left: 20px;
+}
